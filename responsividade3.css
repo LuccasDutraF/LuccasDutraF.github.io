@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(./img/cidade.jpg);
     background-position: top;
-    background-size: 100% 35%;
+    background-size: 100% 39%;
     background-repeat: no-repeat;
 }
 
@@ -28,26 +27,24 @@ body{
 #main{
     width: 100%;
     display: flex;
-}
-
-#espaçamento-div{
-    color: rgba(255, 0, 0, 0);
+    flex-direction: column;
 }
 
 #foto-nome{
-    width: 70%;
+    width: 100%;
 }
 
 #Minha-foto{
-    width: 20%;
-    margin-left: 15%;
+       width: 20%;
+     margin-left: 40%;
 }
 
 
 #foto-nome-container{
-    width: 70%;
+    width: 100%;
     display: flex;
     margin-top: 10%;
+    flex-direction: column;
 }
 
 #fotoluccas{
@@ -56,12 +53,6 @@ body{
 
 .nome-container{
     width: 35%;
-}
-
-#nome{
-    color: white;
-    margin-top: 8%;
-    padding: 1%;
 }
 
 #contato{
@@ -91,14 +82,22 @@ body{
 
 #Nome{
     color: white;
-    margin-top: 10%;
+    margin-top: 1%;
     padding: 1%;
+    text-align: center;
 }
 
 #Contato-container{
     width: 30%;
     color: white;
-    margin-top: 6%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+#Formas-de-contato-container{
+    border-radius: 15px;
+    padding: 5%;
+    background-color: rgb(37 37 37 / 72%);
 }
 
 .Formas-de-contato{
@@ -112,11 +111,13 @@ body{
 
 #email-foto{
     width: 10%;
+    height: 10%;
 }
 
 .email{
-    margin-top: 15px;
-    padding-left: 1%;
+    margin-top: 6px;
+    padding-left: 3%;
+    font-size: 67%;
 }
 
 #Telefone-container{
@@ -125,16 +126,20 @@ body{
 }
 
 #telefone-foto{
-    width: 11%;
+    width: 10%;
+    height: 10%;
+    padding-top: 5%;
 }
 
 .telefone{
     margin-top: 15px;
+    font-size: 75%;
+    padding-left: 3%;
 }
 
 #sobremim{
     width: 100%;
-    margin-top: 396px;
+    margin-top: 149px;
 }
 
 #sobremim-container{
